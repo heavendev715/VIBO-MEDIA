@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIBO MEDIA Landing Page - Mobile</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Tailwind CSS CDN -->
+</head>
+
+<body class="bg-black text-white">
+    <!-- Fullscreen section with background -->
+    <section class="relative h-screen w-full bg-cover bg-center" style="background-image: url('../public/images/screen.png');">
+
+        <!-- Navbar (hamburger menu and logo) -->
+        <header class="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-20">
+            <div class="flex space-x-4">
+                <button class="text-white">
+                    <!-- Hamburger menu icon -->
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <!-- Small logo icon -->
+                <img src="path_to_small_logo_icon.png" alt="Small Logo" class="w-8 h-8">
+            </div>
+
+            <!-- Get in touch button -->
+            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-500 flex items-center space-x-2">
+                <span>➕</span>
+            </a>
+        </header>
+
+        <!-- Centered Main Content -->
+        <div class="absolute inset-0 flex justify-center items-center z-0">
+            <div class="text-center">
+                <!-- Main Image and Text -->
+                <img src="path_to_center_image.png" alt="Center Image" class="w-[250px] h-[250px] mx-auto">
+                <div class="text-[40px] sm:text-[60px] font-bold tracking-tight text-blue-400">
+                    VIBO MEDIA
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Text (Your Website) -->
+        <div class="absolute bottom-16 left-6 right-6 text-center">
+            <p class="text-xl font-bold">YOUR WEBSITE</p>
+            <p class="text-md font-medium">COULD BE COSTING YOU SALES</p>
+            <p class="text-xl font-bold">—— WE CAN FIX THAT</p>
+        </div>
+
+        <!-- Scroll down indicator -->
+        <div class="absolute bottom-4 left-0 right-0 flex justify-center">
+            <button class="bg-white text-black p-4 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+        </div>
+
+    </section>
+</body>
+
+</html>
